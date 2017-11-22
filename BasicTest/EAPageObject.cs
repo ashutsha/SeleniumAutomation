@@ -20,6 +20,8 @@ namespace BasicTest
         public IWebElement TitleID{get;set;}
         //testing the project
         [FindsBy(How = How.Name, Using = "Initial")]
+        //Updated the new comments 
+
         public IWebElement txtinitial { get; set; }
         [FindsBy(How = How.Name, Using = "FirstName")]
         public IWebElement txtFirstName { get; set; }
