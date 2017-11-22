@@ -18,6 +18,7 @@ namespace BasicTest
 
         [FindsBy(How = How.Id, Using = "TitleId")]
         public IWebElement TitleID{get;set;}
+        //testing the project
         [FindsBy(How = How.Name, Using = "Initial")]
         public IWebElement txtinitial { get; set; }
         [FindsBy(How = How.Name, Using = "FirstName")]
